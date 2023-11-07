@@ -40,7 +40,5 @@ docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise
 or usign makefile
 
 ```bash
-make examples
+make actual
 ```
-
-In either case, this should result in the creation of `{your-cv}.pdf`
